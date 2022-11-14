@@ -226,4 +226,8 @@ rpm -qa | grep ansible
 
 rpm -ql <package name> | more
 rpm -ql ansible-2.9.7-1.el8.noarch | more
+ 
+ 
+  ssh -p22 -i  remote-web.key  monthe@54.157.59.75
+
 
