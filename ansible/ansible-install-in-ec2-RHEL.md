@@ -37,6 +37,7 @@ useradd -d /home/awstechguide -m awstechguide
 passwd awstechguide
 passwd -x -1 awstechguide
 
+chown awstechguide:awstechguide /etc/ansible/
 ### browse to /ect/ansible and open hosts file to add remote host ips
 
 vi /etc/ansible/hosts 
